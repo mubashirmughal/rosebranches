@@ -6,8 +6,9 @@ public class Main {
         int a;
         System.out.println("How much did you receive the money ($)? ");
         a = sc.nextInt();
-        
+        int k = (int)(a*(75/100.0f));
 
+        System.out.println("Book and Supplies: " +k);
 
 
     }
